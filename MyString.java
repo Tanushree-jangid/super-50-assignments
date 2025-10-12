@@ -1,4 +1,4 @@
-
+ 
 // updated 
 /** @filename  - MyString
  * @Description: A custom string class with various string operations.
@@ -9,7 +9,7 @@
 public class MyString {
     private String str;
 
-    public MyString(String str) {
+    public  MyString(String str) {
         this.str = str;
     }
 
@@ -48,6 +48,7 @@ public class MyString {
         for (int i = 0; i < str.length(); i++)
             arr[i] = (str.charAt(i) == oldChar) ? newChar : str.charAt(i);
         str = new String(arr);
+        
     }
 
     // Check palindrome
